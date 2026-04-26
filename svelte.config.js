@@ -17,12 +17,13 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
+            fallback: '200.html'
 		}),
 		paths: {
-			base: '',
-			relative: false
-		}
+            base: process.env.NODE_ENV === 'production' ? '/starloexoliz.is-a.dev' : ''
+        },
+        appDir: 'app'
 	},
 };
 
