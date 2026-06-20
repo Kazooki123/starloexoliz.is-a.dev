@@ -15,8 +15,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html',
-			out: 'build'
+			fallback: 'index.html'
 		}),
 		paths: {
             base: process.env.NODE_ENV === 'production' ? '/starloexoliz.is-a.dev' : ''
