@@ -1,6 +1,5 @@
-import { base } from '$app/paths';
-
 <script>
+    import { base } from '$app/paths';
     const awesomeskills = [
         'Writer',
         'Frontend Development',

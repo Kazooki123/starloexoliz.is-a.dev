@@ -1,6 +1,6 @@
-import { base } from '$app/paths';
-
 <script>
+    import { base } from '$app/paths';
+
     import crabbylogo from '$lib/assets/crabbylogo.jpg'
     import typescript from '$lib/assets/typescript.png'
     import lunardb from '$lib/assets/lunardb.png'
