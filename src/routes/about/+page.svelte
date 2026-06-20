@@ -1,3 +1,5 @@
+import { base } from '$app/paths';
+
 <script>
     const awesomeskills = [
         'Writer',
@@ -11,9 +13,9 @@
     <header class="site-header">
         <div class="name">StarloExoliz</div>
         <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/blogs">Blogs</a>
+            <a href="{base}/">Home</a>
+            <a href="{base}/about">About</a>
+            <a href="{base}/blogs">Blogs</a>
         </nav>
     </header>
 

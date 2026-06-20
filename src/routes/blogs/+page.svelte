@@ -1,3 +1,5 @@
+import {base} from '$app/paths'
+
 <script>
   export let data;
 </script>
@@ -6,9 +8,9 @@
   <header class="site-header">
     <div class="name">StarloExoliz</div>
     <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/contacts">Contact</a>
+      <a href="{base}/">Home</a>
+      <a href="{base}/about">About</a>
+      <a href="{base}/contacts">Contact</a>
     </nav>
   </header>
 

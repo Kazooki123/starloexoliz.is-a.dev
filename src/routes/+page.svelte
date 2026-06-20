@@ -1,3 +1,5 @@
+import { base } from '$app/paths';
+
 <script>
     import crabbylogo from '$lib/assets/crabbylogo.jpg'
     import typescript from '$lib/assets/typescript.png'
@@ -29,10 +31,10 @@
     <header class="site-header">
         <div class="name">StarloExoliz</div>
         <nav>
-            <a href="/about">About Me</a>
+            <a href="{base}/about">About Me</a>
             <a href="https://github.com/Kazooki123">Github</a>
-            <a href="/blogs">Blogs</a>
-            <a href="/contacts">Contact</a>
+            <a href="{base}/blogs">Blogs</a>
+            <a href="{base}/contacts">Contact</a>
         </nav>
     </header>
 

@@ -1,11 +1,12 @@
+import { base } from '$app/paths';
 
 <div class="page">
     <header class="site-header">
         <div class="name">StarloExoliz</div>
         <nav>
-            <a href="/">Home</a>
-            <a href="/about">About Me</a>
-            <a href="/blogs">Blogs</a>
+            <a href="{base}/">Home</a>
+            <a href="{base}/about">About Me</a>
+            <a href="{base}/blogs">Blogs</a>
         </nav>
     </header>
 
