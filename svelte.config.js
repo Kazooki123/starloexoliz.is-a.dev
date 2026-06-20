@@ -20,9 +20,9 @@ const config = {
 			out: 'build'
 		}),
 		paths: {
-			base: '',
-			relative: false
-		}
+            base: process.env.NODE_ENV === 'production' ? '/starloexoliz.is-a.dev' : ''
+        },
+        appDir: 'app'
 	},
 };
 
