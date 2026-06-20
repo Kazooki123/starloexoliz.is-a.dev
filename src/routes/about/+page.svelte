@@ -30,27 +30,35 @@
                     I usually do gaming and chatting with my friends at social media when im bored or
                     not in the mood of coding :p
                 </p>
+                <p>Additional Notes: uhh... Wuh Luh Wuh!! &gt;.&lt; </p>
             </article>
 
             <article class="about-section">
                 <h2>Journey</h2>
                 <p>
                     Back then, i really never took programming seriously, ever, until one day one of my friends
-                    at Discord when i was 14-15 years old, chose me to make a Discord bot written in python, at first i thought i could never make such a thing, i was dumb, i was clumsy, i was very naive of what i do when i first started coding (I mean, don't we all? :p), but then something changed, days later i started to get addicted at watching Youtubers like Fireship, Tscoding, and read more about Python syntaxes and grammar. I made my first github repo called <b>"alexa-with-python"</b>, it was made by just
+                    at Discord when i was 14-15 years old, chose me to make a Discord bot written in python, at first i thought i could never make such a thing, i was dumb, i was clumsy, i was very naive of what i do when i first started coding (I mean, don't we all? :p), but then something changed, days later i started to get addicted at watching Youtubers like Fireship, Tscoding, and reading about Python syntaxes and grammar. I made my first github repo called <b>"alexa-with-python"</b>, it was made by just
                     following tutorials in Youtube as i was very dependent at tutorials.
                 </p>
                 <hr>
                 <p>
-                    From then, i realized that i can use other programming languages; Java, PHP, Go, Rust, Ruby, Javascript, and Typescript. I got into web development and first made
-                    a search engine only written in HTML, CSS, and a horrible ass of Javascript codes.
+                    From then, i realized that i can use other programming languages; Java, PHP, Go, Rust, Ruby, Javascript, and Typescript, you name it. I got into web development months later and first made a search engine only written in HTML, CSS, and a bunch of horrible ass Javascript codes.
                 </p>
                 <hr>
                 <p>
-                    Months later, i then began and got interested at making 3D games, i first used Unity and made 'Forest Camp', which until this day is still unfinished, or maybe even abandoned at this point, i then also used Godot months or years later on because of its lightweight size, i also learned a lot of 3D editing skills in Blender or other Game Engines because of tutorials and documentation.
+                    Months later passed by, i then began and got interested at making 3D games, i first used Unity and made 'Forest Camp', which until this day is still unfinished, or maybe even abandoned at this point, i then also use Godot for months or years later on because of its lightweight size, i also learned a lot of 3D editing skills in Blender or other Game Engines because of tutorials and documentation.
                 </p>
                 <hr>
                 <p>
-                    
+                   By early/mid 2023 i came back to making more horrible ass websites but mostly i loved to experiment at designs and learn from my mistakes back then, i also became in loved with Typescript so much i created a small program written in TS that converts a JS code to TS, its still in development and experimental, which till this day experiences bugs for a reason. 
+                </p>
+                <hr>
+                <p>
+                    By late 2023 to mid-2024, i got interested at deeper Programming Languages like C, C++, and assembly. It made me went to a rabbit hole about learning or even leaned into the concepts of programming languages, this is where my friends online began writing their own programming language which inspired me to make my own also, which is the reason i made Crabby, at first and yes i admit, its AI-generated, but at the same time i learned that its a horrible idea and a mistake that i already addressed it to this day, and so now the codebase is still ongoing in changes and updates, although due to my academic stress and pressure, i sometimes and temporary halt the development of the project... 
+                </p>
+                <hr>
+                <p>
+                    In the future, i'll never know where i go as well, fully employed? homeless in the streets? struggling in life? who knows? life is full of wonders, and that's why i never ever waste them until now. I still wish for a better life, and so as the people reading my postfolio.. 🩷🦋
                 </p>
             </article>
 
