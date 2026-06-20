@@ -17,7 +17,7 @@
         <li>BlueSky: @starloexoliz123.bsky.social</li>
         <li>Discord: @starloexoliz11</li>
         <li>Gmail: mgamgerdinge146@gmail.com</li>
-        <li>2nd Gmail: markanthonygelito@gmail.community</li>
+        <li>2nd Gmail: markanthonygelito@gmail.com</li>
     </ul>
 </div>
 

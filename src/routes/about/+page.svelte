@@ -119,7 +119,7 @@
         flex-direction: column;
         background: var(--bg);
         color: var(--text);
-        font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        font-family: 'Maple Mono', monospace;
     }
 
     .site-header {

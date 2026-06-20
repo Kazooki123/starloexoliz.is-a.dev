@@ -1,28 +1,35 @@
 <script>
     import { base } from '$app/paths';
 
-    import crabbylogo from '$lib/assets/crabbylogo.jpg'
-    import typescript from '$lib/assets/typescript.png'
-    import lunardb from '$lib/assets/lunardb.png'
+    import crabbylogo from '$lib/assets/crabbylogo.png'
+    import yuri from '$lib/assets/yuri.png'
+    import sixchan from '$lib/assets/6chan.png'
+    import oakwood from '$lib/assets/oakwood.jpg'
 
     const projects = [
         {
             title: 'Crabby',
             desc: 'A Programming Language written in Rust.',
             img: crabbylogo,
-            url: 'https://github.com/crabby-lang/crabby'
+            url: 'https://codeberg.org/crabby-lang/crabby'
         },
         {
-            title: 'Typeify',
-            desc: 'A JS-to-TS converter but as a command.',
-            img: typescript,
-            url: 'https://github.com/Kazooki123/typeify'
+            title: 'Yurilang',
+            desc: 'An Esoteric Programming Language about Yuri.',
+            img: yuri,
+            url: 'https://codeberg.org/Kazooki123/yurilang'
         },
         {
-            title: 'LunarDB',
-            desc: 'A DBMS with Hybrid and experimental features.',
-            img: lunardb,
-            url: 'https://github.com/Kazooki123/LunarDB'
+            title: '6chan',
+            desc: 'A 4chan-style imageboard.',
+            img: sixchan,
+            url: 'https://codeberg.org/Kazooki123/6chan'
+        },
+        {
+            title: 'OakWood',
+            desc: 'A Voxel Engine written on Odin.',
+            img: oakwood,
+            url: 'https://codeberg.org/Kazooki123/oakwood'
         }
     ];
 </script>
