@@ -20,8 +20,6 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm install --force --no-frozen-lockfile
-      - name: Fix npm optional deps
-        run: npm config set --include=optional
       - run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
