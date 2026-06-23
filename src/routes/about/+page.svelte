@@ -27,11 +27,11 @@
             <article class="about-section">
                 <h2>Who Am I?</h2>
                 <p>
-                    Hello! I'm StarloExoliz.. But you can call me Anthony! I'm a Senior High student passionate at creating stuffs that i like, usually random or specific.
+                    Hello! I'm StarloExoliz.. But you can call me Anthony! I'm a College Undergraduate student passionate at creating stuffs that i like, usually random or specific.
                     I usually do gaming and chatting with my friends at social media when im bored or
                     not in the mood of coding :p
                 </p>
-                <p>Additional Notes: uhh... Wuh Luh Wuh!! &gt;.&lt; </p>
+                <!-- <p>Additional Notes: uhh... Wuh Luh Wuh!! &gt;.&lt; </p> -->
             </article>
 
             <article class="about-section">
@@ -59,7 +59,7 @@
                 </p>
                 <hr>
                 <p>
-                    In the future, i'll never know where i go as well, fully employed? homeless in the streets? struggling in life? who knows? life is full of wonders, and that's why i never ever waste them until now. I still wish for a better life, and so as the people reading my postfolio.. 🩷🦋
+                    In the future, i'll never know where i go as well, fully employed? homeless in the streets? struggling in life? who knows? life is full of wonders, and that's why i never ever waste them until now. I still wish for a better life, and so as the people reading my portfolio.. 🩷🦋
                 </p>
             </article>
 
@@ -71,8 +71,20 @@
                     {/each}
                 </div>
                 <p>
-                    I'm usually interested at learning Programming Language Theory, I even made a proglang for it.
-                    I'm interested at making websites, cli tools, softwares, and C libraries just for fun.
+                    I'm usually interested in learning programming language theory, I even made a proglang for it.
+                </p>
+                <p>
+                    Speaking of programming languages, i use a few languages such as C/C++, Python, Ruby, JS & TS, Rust, Zig, PHP, Go, and Java or Kotlin.
+                </p>
+                <p>
+                    I'm interested at making websites, cli tools, software, and C libraries just for fun.
+                </p>
+                <p>
+                    In tooling, my setup is usually LazyVim, Git, and Vercel or Railway for deployments.
+                    For Low-Level, im usually interested in LLVM, embedded related topics, and micro programming.
+                </p>
+                <p>
+                    And so on, im still learning &lt;3
                 </p>
                 <hr>
                 <p>

@@ -32,6 +32,49 @@
             url: 'https://codeberg.org/Kazooki123/oakwood'
         }
     ];
+
+    const coolpeople = [
+      {
+        name: "jamiw",
+        desc: "Closest and comfortable friend, he makes awesome stuffs as well!",
+        link: 'https://isuckat.dev'
+      },
+      {
+        name: "snarkydev",
+        desc: "My new friend, also a genius one! :]",
+        link: 'https://owo.sh'
+      },
+      {
+        name: "yazn",
+        desc: "Arabic dude who does insane things in hardware & software, be careful he's an unexpected one o~^",
+        link: 'https://yazn.iso'
+      },
+      {
+        name: "caelondev",
+        desc: "Also known as Jericho, he's a nerd/geek at low level topics, you should check his stuffs!",
+        link: 'https://caelondev.is-a.dev'
+      },
+      {
+        name: "luna",
+        desc: "One of the best friends i have, he makes fanfics, and is also a web developer!",
+        link: 'https://nightrunners.eu'
+      },
+      {
+        name: "jasper",
+        desc: "Cool twink, minecraft player, somehow uses java or kotlin, but he's genuinely nice.",
+        link: 'https://github.com/mcl-playz'
+      },
+      {
+        name: "ethan",
+        desc: "Likes turtles, is also a fedora guy, go check his YouTube and projects as well!",
+        link: "https://leethana.is-a.dev"
+      },
+      {
+        name: "thatonejack",
+        desc: "Also known as just jack, he makes random stuffs, is a nerd also :p",
+        link: "https://github.com/ItsThatOneJack-Dev"
+      }
+    ]
 </script>
 
 <div class="page">
@@ -40,6 +83,7 @@
         <nav>
             <a href="{base}/about">About Me</a>
             <a href="https://github.com/Kazooki123">Github</a>
+            <a href="https://codeberg.org/Kazooki123">Codeberg</a>
             <a href="{base}/blogs">Blogs</a>
             <a href="{base}/contacts">Contact</a>
         </nav>
@@ -47,7 +91,7 @@
 
     <main class="container">
         <section id="about" class="hero">
-            <h1>Haii!! :3</h1>
+            <h1>Hello!! :3</h1>
             <h2>I'm StarloExoliz</h2>
             <p class="lead">I make random stuffs, usually software and web related, currently living in hell because of school.</p>
         </section>
@@ -63,6 +107,19 @@
                         <h3>{p.title}</h3>
                         <p class="muted">{p.desc}</p>
                         <a class="btn" href={p.url}>View</a>
+                    </article>
+                {/each}
+            </div>
+        </section>
+
+        <section id="shoutouts" class="shoutouts">
+            <h2>Cool People 🎀</h2>
+            <div class="grid">
+                {#each coolpeople as c}
+                    <article class="card">
+                        <h3>{c.name}</h3>
+                        <p class="muted">{c.desc}</p>
+                        <a class="btn" href={c.link}>View</a>
                     </article>
                 {/each}
             </div>
@@ -152,6 +209,13 @@
     .projects{margin-top: 32px}
 
     .projects h2{
+        font-size: 1.2rem;
+        margin: 0 0 12px 0
+    }
+
+    .shoutouts{margin-top: 32px}
+
+    .shoutouts h2{
         font-size: 1.2rem;
         margin: 0 0 12px 0
     }
