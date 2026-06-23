@@ -17,9 +17,6 @@ const config = {
 			assets: 'build',
 			fallback: 'index.html'
 		}),
-		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/starloexoliz.is-a.dev' : ''
-        },
         appDir: 'app'
 	},
 };
