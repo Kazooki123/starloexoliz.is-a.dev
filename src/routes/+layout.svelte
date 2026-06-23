@@ -1,14 +1,15 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.ico';
-
+	import Oneko from '$lib/Oneko.svelte';
+	
 	let { children } = $props();
 </script>
+
+<Oneko />
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
-
-
 
 <style>
 	@font-face {
