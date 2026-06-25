@@ -73,6 +73,11 @@
         name: "thatonejack",
         desc: "Also known as just jack, he makes random stuffs, is a nerd also :p",
         link: "https://github.com/ItsThatOneJack-Dev"
+      },
+      {
+        name: "gab",
+        desc: "A very awesome person! She gave me a free VPS which is why i appreciate her for that.",
+        link: 'https://discordapp.com/users/476057232186933274'
       }
     ]
 </script>
