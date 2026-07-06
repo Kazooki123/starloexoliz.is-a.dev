@@ -15,19 +15,8 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-<<<<<<< HEAD
 			fallback: 'index.html'
 		}),
-=======
-			fallback: undefined,
-			precompress: false,
-			strict: true,
-            fallback: '200.html'
-		}),
-		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/starloexoliz.is-a.dev' : ''
-        },
->>>>>>> codeberg/main
         appDir: 'app'
 	},
 };
