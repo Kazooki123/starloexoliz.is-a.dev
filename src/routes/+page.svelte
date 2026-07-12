@@ -80,6 +80,20 @@
         link: 'https://discordapp.com/users/476057232186933274'
       }
     ]
+
+    function goPrev() {
+		window.location.href =
+			`https://ring.stabbed.me/prev/from/${window.location.hostname}`;
+	}
+
+	function goHome() {
+		window.location.href = "https://ring.stabbed.me";
+	}
+
+	function goNext() {
+		window.location.href =
+			`https://ring.stabbed.me/next/from/${window.location.hostname}`;
+	}
 </script>
 
 <div class="page">
@@ -130,6 +144,18 @@
             </div>
         </section>
     </main>
+
+    <div style="all:initial;position:fixed;left:1rem;bottom:1rem;z-index:999;display:flex;flex-direction:column">
+	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goPrev}>
+		↑
+	    </button>
+	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goHome}>
+		?
+	    </button>
+	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goNext}>
+		↓
+	    </button>
+    </div>
 
     <footer class="site-footer">
         <div>Made with ☕ Svelte • © {new Date().getFullYear()} AGPLv3 All Rights Reserved.</div>
