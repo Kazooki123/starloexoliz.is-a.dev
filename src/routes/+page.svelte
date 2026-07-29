@@ -81,7 +81,7 @@
       },
       {
         name: "syslink",
-        desc: "One of my friends as well! Has C & C++ experiences, check out his projects as well!",
+        desc: "One of my friends! Has C & C++ experiences, check out his projects as well!",
         link: 'https://syslink.is-a.dev'
       },
     ]
