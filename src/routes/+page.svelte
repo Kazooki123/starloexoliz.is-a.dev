@@ -78,7 +78,12 @@
         name: "gab",
         desc: "A very awesome person! She gave me a free VPS which is why i appreciate her for that.",
         link: 'https://discordapp.com/users/476057232186933274'
-      }
+      },
+      {
+        name: "syslink",
+        desc: "One of my friends as well! Has C & C++ experiences, check out his projects as well!",
+        link: 'https://syslink.is-a.dev'
+      },
     ]
 
     function goPrev() {
