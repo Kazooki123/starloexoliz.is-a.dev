@@ -150,17 +150,10 @@
         </section>
     </main>
 
-    <div style="all:initial;position:fixed;left:1rem;bottom:1rem;z-index:999;display:flex;flex-direction:column">
-	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goPrev}>
-		↑
-	    </button>
-	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goHome}>
-		?
-	    </button>
-	    <button style="all:initial;display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#000;color:#fff;border:none;cursor:pointer;font:16px/1 sans-serif" on:click={goNext}>
-		↓
-	    </button>
-    </div>
+    <a href="https://horser.ing/prev/orangc">←</a>
+    <a href="https://horser.ing">horsering</a>
+    <a href="https://horser.ing/rand?from=orangc">🐴</a>
+    <a href="https://horser.ing/next/orangc">→</a>
 
     <footer class="site-footer">
         <div>Made with ☕ Svelte • © {new Date().getFullYear()} AGPLv3 All Rights Reserved.</div>
